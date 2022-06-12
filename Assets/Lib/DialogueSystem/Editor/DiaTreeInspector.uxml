@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="DiaTreeInspector.uss" />
+    <ui:Button text="打开编辑窗口" display-tooltip-when-elided="true" name="Button" style="height: 53px; font-size: 22px; -unity-font-style: bold;" />
+    <ui:TextField picking-mode="Ignore" label="描述" value="filler text" text="请输入改节点的描述信息..asdf asdf asdfdafsdfasdfasdfasdfasdfasdfasfasd fsdf asdfasdfsdfsdfsdfsdf 等待发士大夫啊手动阀手动阀士大夫阿斯顿收到" name="Describe" usage-hints="None" password="false" multiline="true" readonly="false" style="height: 142px; flex-direction: column; align-items: stretch; -unity-text-align: upper-left; display: flex; overflow: hidden; -unity-background-scale-mode: stretch-to-fill; flex-wrap: nowrap; position: relative;" />
+</ui:UXML>

@@ -1,0 +1,296 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6714035668614015694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node7
+  m_EditorClassIdentifier: 
+  Guid: e813efcdf360d0f4c9036308c4d6db17
+  FrontNode: {fileID: 0}
+  Output:
+  - Descirbe: 
+    Answer: 
+    NextNode: {fileID: 5468077295201751947}
+  Title: "\u7ED3\u679C1"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: 
+  Type: 0
+  Text: "\u8FD8\u8981\u7EE7\u7EED\u52A0\u6CB9\u54E6"
+  position: {x: 714.74744, y: 238}
+--- !u!114 &-4576937381707729756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node2
+  m_EditorClassIdentifier: 
+  Guid: 3c58f22efdf09a2498a2a0b218d6ed5d
+  FrontNode: {fileID: 1941615517160538531}
+  Output:
+  - Descirbe: 
+    Answer: 
+    NextNode: {fileID: 8076605762596693064}
+  Title: "\u7ED3\u679C2"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: chasinghope
+  Type: 0
+  Text: "\u7F8E\u56FD\u81EA\u7531\u5973\u795E\u50CF\u4E0D\u9519"
+  position: {x: 156.15, y: 315.00003}
+--- !u!114 &-617976259445125035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node3
+  m_EditorClassIdentifier: 
+  Guid: ce4ce22289c2061459c70de9744587c1
+  FrontNode: {fileID: 4608542862735128979}
+  Output:
+  - Descirbe: 
+    Answer: 
+    NextNode: {fileID: 8094954967712680761}
+  Title: "\u7ED3\u679C1"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: chasinghope
+  Type: 0
+  Text: "\u57C3\u83F2\u5C14\u94C1\u5854\uFF08\u6CD5\u8BED\uFF1ALa Tour Eiffel\uFF1B\u82F1\u8BED\uFF1Athe
+    Eiffel Tower\uFF09"
+  position: {x: 359, y: 82.16}
+--- !u!114 &-2526812405442195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node10
+  m_EditorClassIdentifier: 
+  Guid: 6ccf818c7862bf74e8bd271295c52975
+  FrontNode: {fileID: 8076605762596693064}
+  Output:
+  - Descirbe: "\u7ED3\u679C2"
+    Answer: 
+    NextNode: {fileID: 0}
+  Title: "\u7ED3\u679C2"
+  Icon: {fileID: 0}
+  Name: 
+  Type: 2
+  Text: "\u8FD9\u6765\u4E00\u6B21\uFF1F"
+  position: {x: 697, y: 372}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acc5d3398ebee2a42b4e966f1474bc72, type: 3}
+  m_Name: New Dia Tree
+  m_EditorClassIdentifier: 
+  Info: "\u8FD9\u662F\u4E00\u4E2A\u6D4B\u8BD5\u5BF9\u8BDD\u56FE"
+  root: {fileID: 1941615517160538531}
+  Tree:
+  - {fileID: 4608542862735128979}
+  - {fileID: 1941615517160538531}
+  - {fileID: -4576937381707729756}
+  - {fileID: -617976259445125035}
+  - {fileID: 8094954967712680761}
+  - {fileID: 7411098436862379407}
+  - {fileID: 8076605762596693064}
+  - {fileID: -6714035668614015694}
+  - {fileID: 5468077295201751947}
+  - {fileID: 6360095232837125737}
+  - {fileID: -2526812405442195}
+--- !u!114 &1941615517160538531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: "\u6839\u8282\u70B9"
+  m_EditorClassIdentifier: 
+  Guid: 7d1821de9f7c106469d269d7c464190f
+  FrontNode: {fileID: 0}
+  Output:
+  - Descirbe: 0
+    Answer: "\u6211\u6253\u7B97\u53BB\u6CD5\u56FD"
+    NextNode: {fileID: 4608542862735128979}
+  - Descirbe: 1
+    Answer: "\u6211\u6253\u7B97\u53BB\u7F8E\u56FD"
+    NextNode: {fileID: -4576937381707729756}
+  Title: ROOT
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: chasinghope
+  Type: 1
+  Text: "\u5047\u671F\u53BB\u54EA\u513F\u73A9"
+  position: {x: 9.949932, y: 139.00002}
+--- !u!114 &4608542862735128979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node0
+  m_EditorClassIdentifier: 
+  Guid: 7a6893755b1cbdb46bc74b009e231f21
+  FrontNode: {fileID: 1941615517160538531}
+  Output:
+  - Descirbe: 
+    Answer: 
+    NextNode: {fileID: -617976259445125035}
+  Title: "\u7ED3\u679C1"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: chasinghope
+  Type: 0
+  Text: "\u6CD5\u56FD\u57C3\u83F2\u5C14\u94C1\u5854\u4E0D\u9519"
+  position: {x: 200.95001, y: 139.00002}
+--- !u!114 &5468077295201751947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node8
+  m_EditorClassIdentifier: 
+  Guid: 43593d552771e3945a2f54375a84f0c6
+  FrontNode: {fileID: -6714035668614015694}
+  Output:
+  - Descirbe: 
+    Answer: 
+    NextNode: {fileID: 6360095232837125737}
+  Title: "\u7ED3\u679C1"
+  Icon: {fileID: 21300000, guid: 78c019097b6bf2c4e82887a21917f309, type: 3}
+  Name: "\u7EF4\u5FB7"
+  Type: 2
+  Text: "\u7EF4\u5FB7 speak"
+  position: {x: 879.33185, y: 238}
+--- !u!114 &6360095232837125737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node9
+  m_EditorClassIdentifier: 
+  Guid: d6ed5e5cf0aeeea48aaa5a6a65e07645
+  FrontNode: {fileID: 5468077295201751947}
+  Output: []
+  Title: "\u7ED3\u679C1"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: 
+  Type: 0
+  Text: "\u7ED3\u675F\u4E86"
+  position: {x: 1048.7003, y: 238.00005}
+--- !u!114 &7411098436862379407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node5
+  m_EditorClassIdentifier: 
+  Guid: de393ae5f1198994b91a4588e9273957
+  FrontNode: {fileID: 8094954967712680761}
+  Output:
+  - Descirbe: 
+    Answer: 
+    NextNode: {fileID: 8076605762596693064}
+  Title: "\u7ED3\u679C1"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: chasinghope
+  Type: 0
+  Text: "\u57C3\u83F2\u5C14\u94C1\u5854\u7684\u7ED3\u6784\u4F53\u7CFB\u65E2\u76F4\u89C2\u53C8\u7B80\u6D01\uFF1A\u5E95\u90E8\u662F\u5206\u5E03\u5728\u6BCF\u8FB9128\u7C73\uFF0C\u957F\u5E95\u5EA7\u4E0A\u76844\u4E2A\u5DE8\u578B\u89D2\u5F62\u503E\u659C\u67F1\u58A9\uFF08\u503E\u89D254\xB0\uFF09\uFF0C\u5176\u7531\u6807\u9AD855\u7C73\u5904\u7684\u7B2C\u4E00\u5E73\u53F0\u652F\u6491\u7740\uFF1B\u7B2C\u4E00\u5E73\u53F0\u548C\u6807\u9AD8\u4E3A115\u7C73\u7684\u7B2C\u4E8C\u5E73\u53F0\u4E4B\u95F4\u67094\u4E2A\u5FAE\u66F2\u7684\u89D2\u7ACB\u67F1\u76F8\u8FDE\uFF1B\u5411\u4E0A\u8F6C\u5316\u4E3A\u7EC6\u957F\u7684\u3001\u51E0\u4E4E\u5782\u76F4\u7684\u3001189\u7C73\u9AD8\u3001\u521A\u6027\u5F88\u5927\u7684\u65B9\u5C16\u5854\uFF0C\u76F4\u901A\u9876\u90E8\u5E73\u53F0"
+  position: {x: 683, y: 62}
+--- !u!114 &8076605762596693064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node6
+  m_EditorClassIdentifier: 
+  Guid: 7cd5fead94497814e8b6579dee20693b
+  FrontNode: {fileID: -4576937381707729756}
+  Output:
+  - Descirbe: 0
+    Answer: "\u8C01\u8DDF\u4F60\u8054\u5408\u8D77\u6765\u554A\uFF01"
+    NextNode: {fileID: -6714035668614015694}
+  - Descirbe: 1
+    Answer: "\u4F60\u8054\u5408"
+    NextNode: {fileID: -2526812405442195}
+  Title: "\u5224\u65AD1"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: 
+  Type: 1
+  Text: "\u7ED3\u5408\u8D77\u6765\u5427\uFF01"
+  position: {x: 429.65005, y: 305.10007}
+--- !u!114 &8094954967712680761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 708ba31fc0632684daece22828b9d121, type: 3}
+  m_Name: Node4
+  m_EditorClassIdentifier: 
+  Guid: fe16f8e0045d92e498a08f565f41b4eb
+  FrontNode: {fileID: -617976259445125035}
+  Output:
+  - Descirbe: 
+    Answer: 
+    NextNode: {fileID: 7411098436862379407}
+  Title: "\u7ED3\u679C1"
+  Icon: {fileID: 21300000, guid: 5ca968b53f330bb4f85f0c989c6e3696, type: 3}
+  Name: chasinghope
+  Type: 0
+  Text: "\u77D7\u7ACB\u5728\u6CD5\u56FD\u5DF4\u9ECE\u5E02\u6218\u795E\u5E7F\u573A\u4E0A\uFF0C\u65C1\u9760\u585E\u7EB3\u6CB3\uFF0C\u4E3A\u4E3E\u884C1889\u5E74\u4E16\u754C\u535A\u89C8\u4F1A\uFF0C\u7528\u4EE5\u5E86\u795D\u6CD5\u56FD\u5927\u9769\u547D\u80DC\u5229100\u5468\u5E74\uFF0C\u6CD5\u56FD\u653F\u5E9C\u8FDB\u884C\u5EFA\u7B51\u62DB\u6807\uFF0C\u6700\u7EC8\u786E\u7ACB\u57C3\u83F2\u5C14\u94C1\u5854\u3002\u5176\u59CB\u5EFA\u4E8E1887\u5E741\u670826\u65E5\uFF0C\u4E8E1889\u5E743\u670831\u65E5\u7AE3\u5DE5\uFF0C\u5E76\u6210\u4E3A\u5F53\u65F6\u4E16\u754C\u6700\u9AD8\u5EFA\u7B51\u3002"
+  position: {x: 499, y: 82.00001}
